@@ -15,7 +15,9 @@ const Post = ({ user }) => {
         <td>{user.last_name}</td>
         <td>{user.age}</td>
         <td>{user.email}</td>
-        <td>{user.web}</td>
+        <td>
+          <a href='!#'>{user.web}</a>
+        </td>
       </tr>
     </>
   );
